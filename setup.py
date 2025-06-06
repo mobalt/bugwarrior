@@ -86,6 +86,7 @@ setup(name='bugwarrior',
       trac=bugwarrior.services.trac:TracService
       bts=bugwarrior.services.bts:BTSService
       bugzilla=bugwarrior.services.bz:BugzillaService
+      clickup=bugwarrior.services.bz:ClickupService 
       kanboard=bugwarrior.services.kanboard:KanboardService
       teamlab=bugwarrior.services.teamlab:TeamLabService
       redmine=bugwarrior.services.redmine:RedMineService
